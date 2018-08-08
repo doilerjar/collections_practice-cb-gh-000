@@ -20,12 +20,12 @@ def swap_elements(array)
   array
 end 
 
-def reverse_array
-  return array.reverse
+def reverse_array(array)
+  array.reverse
 end 
 
 def kesha_maker(array) 
-  result = 0 
+  result = [] 
   array.each do |item|
     result << item[2] = "$"
   end 
