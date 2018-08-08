@@ -32,3 +32,13 @@ def kesha_maker(array)
   end 
   result 
 end 
+
+def find_a(array)
+  result = []
+  array.each do |item|
+    if item.start_with?("a")
+      result << item 
+    end 
+  end 
+  result 
+end 
